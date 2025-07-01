@@ -1,0 +1,72 @@
+# Arquivo de metadados do plugin
+# Este arquivo segue o formato INI e contém todas as informações
+# que o QGIS precisa para gerenciar o plugin
+
+[general]
+# Nome exibido na interface do QGIS
+name=Análise de Autocorrelação Espacial (Áreas)
+
+# Versão mínima do QGIS necessária
+# 3.0 é uma escolha segura que garante compatibilidade ampla
+qgisMinimumVersion=3.0
+
+# Versão máxima testada
+qgisMaximumVersion=3.99
+
+# Descrição breve do plugin
+description=Plugin em português para análise de I de Moran e LISA, para polígonos, com visualização automática e tratamento especial para dados numéricos
+
+# Versão atual do plugin
+# Use versionamento semântico: MAJOR.MINOR.PATCH
+version=1.0.0
+
+# Informações do autor
+author= Wilson Holler
+email= wilson.holler@embrapa.br
+
+# Descrição detalhada do plugin
+about=Este plugin implementa métodos estatisticamente robustos para análise de autocorrelação espacial em polígonos, incluindo:
+    • I de Moran global com testes de permutação
+    • Indicadores LISA locais (Local Indicators of Spatial Association)
+    • Tratamento especializado para dados de contagem (distribuição de Poisson)
+    • Visualização automática com mapas temáticos
+    • Interface educativa com explicações detalhadas
+    
+    Ideal para análises em epidemiologia, criminologia, geografia econômica e estudos ambientais.
+
+# URL para reportar bugs e solicitar funcionalidades
+tracker=https://github.com/wilholler/spatial-analysis-advanced/issues
+
+# Repositório do código fonte
+repository=https://github.com/wilholler/spatial-analysis-advanced
+
+# Tags para facilitar busca no repositório de plugins
+tags=spatial analysis, autocorrelation, moran, lisa, statistics, permutation, visualization
+
+# Página principal do projeto
+homepage=https://github.com/wilholler/spatial-analysis-advanced
+
+# Categoria do plugin no menu do QGIS
+# Opções: Raster, Vector, Database, Web, Layers, Processing
+category=Vector
+
+# Ícone do plugin
+icon=icon.png
+
+# Indica se é um plugin experimental
+# False = estável, True = em desenvolvimento
+experimental=False
+
+# Indica se o plugin está obsoleto
+deprecated=False
+
+# Se o plugin fornece algoritmos para a caixa de ferramentas Processing
+hasProcessingProvider=no
+
+# Changelog das versões (opcional)
+changelog=1.0.0 - Versão inicial
+    • Implementação do I de Moran global
+    • Análise LISA local
+    • Visualização automática
+    • Tratamento para dados de contagem
+    • Interface educativa
